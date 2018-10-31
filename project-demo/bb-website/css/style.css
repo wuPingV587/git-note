@@ -1,0 +1,268 @@
+.content:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.content>div {
+    float: left;
+}
+
+.content-left {
+    width: 40%;
+    height: 850px;
+    background: #091221;
+}
+
+.content-right {
+    width: 60%;
+    height: 850px;
+    background:url('../img/bg2.png') no-repeat 779px 230px #fff;
+}
+
+.header-left {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background: url('../img/logo.png') no-repeat 382px center;
+    overflow: hidden;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #313131;
+    color: #e6e6e6;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.footer .copyright {
+    color: #e6e6e6;
+    margin: 0 auto;
+    font-size: 12px;
+    width: 1200px;
+    text-align: center;
+}
+
+.tab-img {
+    width: 270px;
+    height: 600px;
+                /* display:none; */
+}
+
+.tab-big {
+    margin-top: 60px;
+    width: 270px;
+    height: 650px;
+    margin-left: 230px;
+    position: relative;
+}
+
+.tab {
+    width: 270px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tab>ul {
+    width: 1495px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tab>ul>li {
+    float: left;
+}
+
+.tab1 {
+    background: url('../img/tab1.png') no-repeat;
+    background-size: 100%;
+}
+
+.tab2 {
+    background: url('../img/tab2.png') no-repeat;
+    background-size: 100%;
+}
+
+.tab3 {
+    background: url('../img/tab3.png') no-repeat;
+    background-size: 100%;
+}
+
+.tab4 {
+    background: url('../img/tab4.png') no-repeat;
+    background-size: 100%;
+}
+
+.position {
+    width: 761px;
+    // height: 100%;
+    float: right;
+    overflow: hidden;
+    background:url('../img/bg1.png') no-repeat top left;
+}
+
+.qr {
+    width: 697px;
+    height: 452px;
+    background: url('../img/qr.png') no-repeat;
+    background-size: 100%;
+    margin: 250px 0 0 50px;
+}
+
+.copyright p {
+    padding: 3px 0;
+}
+
+.qqIcon {
+    display: inline-block;
+    width: 60px;
+    height: 16px;
+    background: url('../img/icon.png') no-repeat;
+    background-size: 100%;
+}
+
+.slideBox-parts {
+    position: absolute;
+    width: 300px;
+    height: 590px;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.slideBox-parts li {
+    position: relative;
+    width: 400px;
+    height: 590px;
+    float: left;
+    display: none;
+}
+
+.parts {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.tab1-parts1 {
+    top: 50%;
+    left: 50%;
+}
+
+.tab1-parts2 {
+    top: 50%;
+    left: 50%;
+}
+.tab1-parts3{
+    top: 50%;
+    left: 50%;
+}
+.tab2-parts1 {
+    bottom: 50%;
+    left: 50%;
+}
+
+.tab2-parts2 {
+    bottom: 50%;
+    left: 50%;
+}
+
+.tab2-parts3 {
+    bottom: 50%;
+    left: 50%;
+}
+
+.tab3-parts1 {
+    bottom: 50%;
+    left: 50%;
+}
+
+.tab3-parts2 {
+    bottom: 50%;
+    left: 50%;
+}
+
+.tab4-parts1 {
+    bottom: 50%;
+    left: 50%;
+}
+
+.tab4-parts2 {
+    bottom: 50%;
+    left: 50%;
+}
+
+.box {
+    width: 270px;
+    height: 630px;
+    margin: 40px 0 0 362px;
+    position: relative;
+}
+
+.img {
+    width: 270px;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img ul {
+    width: 10000%;
+    height: 590px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.img ul li {
+    width: 270px;
+    height: 590px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ico {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 10px;
+    text-align: center;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.ico a {
+    display: inline-block;
+    width: 30px;
+    height: 6px;
+    background: #fff;
+    margin: 0 5px;
+    overflow: hidden;
+    filter: alpha(opacity=50);
+  /*支持 IE 浏览器*/
+    -moz-opacity: 0.50;
+ /*支持 FireFox 浏览器*/
+    opacity: 0.50;
+  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+
+.ico a.on {
+    filter: alpha(opacity=100);
+  /*支持 IE 浏览器*/
+    -moz-opacity: 1;
+ /*支持 FireFox 浏览器*/
+    opacity: 1;
+  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+
